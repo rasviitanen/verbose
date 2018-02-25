@@ -8,9 +8,9 @@ def hello_world():
   print("Hello World!)
 hello_world()
 ```
-
 Output:
+```
 > 0
 > Hello World!
 > 1
-
+```
