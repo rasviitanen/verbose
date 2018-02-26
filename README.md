@@ -5,9 +5,6 @@ Snippet:
 ```
 @verbose
 def hello_world():
-  """
-  This is a docstring.
-  """
   print("Hello World!")
 
 hello_world()
@@ -17,16 +14,18 @@ Output:
  ______RUNNING FUNCTION WITH VERBOSE______
 |___________IGNORING DOCSTRINGS___________|
 |                                         |
-##### LINE OF CODE NO: 0 #####
-def hello_world():
+LINE OF CODE: 0
+RUNTIME TO HERE:9.226999964084825e-06
+>>>def hello_world():
 
-OUTPUTS:
-##### LINE OF CODE NO: 4 #####
-    print("Hello World!")
+LINE OF CODE: 1
+RUNTIME TO HERE:0.00010656499989636359
+>>>    print("Hello world!")
 
-OUTPUTS:
-Hello World!
+Hello world!
 |_________________________________________|
 |______________END OF VERBOSE_____________|
-
+TOTAL RUNTIME WAS:  0.0058718120001231
+Removal of temporary file was successfull!
+-------------------------------------------
 ```
