@@ -1,5 +1,5 @@
 # verbose
-Decorator function for python, to print a number between each line of code.
+Decorator function for python, to print a number between each line of code and its output.
 
 Snippet:
 ```
