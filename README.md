@@ -21,7 +21,7 @@ Output:
 def hello_world(first_word, second_word):
 
 OUTPUTS:
-    ##### LINE OF CODE NO: 4 #####
+##### LINE OF CODE NO: 4 #####
     print("Hello World!")
 
 OUTPUTS:
