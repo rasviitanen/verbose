@@ -26,7 +26,7 @@ def verbose(func):
                     elif not lock:
                         indentation = (len(line[1]) - len(line[1].lstrip())) * ' '
                         verbose_file.write(indentation)
-                        verbose_file.write("print(\"" + indentation + "##### LINE OF CODE NO: " + str(line[0]) + " #####" + "\")\n")
+                        verbose_file.write("print(\"" + "##### LINE OF CODE NO: " + str(line[0]) + " #####" + "\")\n")
                         verbose_file.write(indentation)
                         verbose_file.write("print(\"\"\"" + str(line[1]) + "\"\"\")\n")
                         verbose_file.write(indentation)
