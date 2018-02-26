@@ -23,7 +23,6 @@ def verbose(func):
                 lock = False
                 for line in enumerate(lines[0][1:]):
                     if not line[1].lstrip():
-                        print(line[1].lstrip())
                         continue
                     elif line[1].lstrip()[0:3] == "\"\"\"" and not lock:
                         lock = True
