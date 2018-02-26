@@ -12,11 +12,11 @@ def verbose(func):
         lines = inspect.getsourcelines(func)
 
         try:
+            print(" ______RUNNING FUNCTION WITH VERBOSE______")
+            print("|___________IGNORING DOCSTRINGS___________|")
+            print("|                                         |")
             with open("tmp_verbose_file_02x91923mxmsk19002177xk.py", "w+") as verbose_file:
                 verbose_file.write("from "+ file_name[0:-3] +" import *\n")
-                verbose_file.write("print(\" ______RUNNING FUNCTION WITH VERBOSE______\")\n")
-                verbose_file.write("print(\"|___________IGNORING DOCSTRINGS___________|\")\n")
-                verbose_file.write("print(\"|                                         |\")\n")
                 lock = False
                 for line in enumerate(lines[0][1:]):
                     if line[1].lstrip()[0:3] == "\"\"\"" and not lock:
