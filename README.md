@@ -18,7 +18,7 @@ Output:
 |___________IGNORING DOCSTRINGS___________|
 |                                         |
 ##### LINE OF CODE NO: 0 #####
-def hello_world(first_word, second_word):
+def hello_world():
 
 OUTPUTS:
 ##### LINE OF CODE NO: 4 #####
