@@ -5,6 +5,9 @@ Snippet:
 ```
 @verbose
 def hello_world():
+  """
+  This is a docstring.
+  """
   print("Hello World!")
 
 hello_world()
